@@ -1,0 +1,6 @@
+.menu-wrap
+  .menu.container
+    ul#main-menu
+      each item in site.menu
+        li
+          a(href=item.uri)= item.label

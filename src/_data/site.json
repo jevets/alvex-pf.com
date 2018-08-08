@@ -1,4 +1,34 @@
 {
   "name": "Alvex-PF",
-  "tagline": "Passive Fire Protection"
+  "tagline": "Passive Fire Protection",
+  "menu": [
+    {
+      "label": "Brochure",
+      "uri": "#brochure"
+    },
+    {
+      "label": "Applications",
+      "uri": "#applications"
+    },
+    {
+      "label": "Installation",
+      "uri": "#installation"
+    },
+    {
+      "label": "Certifications",
+      "uri": "#certifications"
+    },
+    {
+      "label": "SDS",
+      "uri": "#sds"
+    },
+    {
+      "label": "Product Details",
+      "uri": "#details"
+    },
+    {
+      "label": "Updates",
+      "uri": "#updates"
+    }
+  ]
 }
