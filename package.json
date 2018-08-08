@@ -1,4 +1,11 @@
 {
+  "name": "alvex-pf.com",
+  "description": "statically generated website",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.5.0"
   }
