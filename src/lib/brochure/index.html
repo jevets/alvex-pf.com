@@ -22,15 +22,15 @@
   }
 
 
-	  function afterLoad(){ 
-		checkPage(); 
-		setFocusOnFlash(); 
+	  function afterLoad(){
+		checkPage();
+		setFocusOnFlash();
           }
 
 	  function setFocusOnFlash()
-		{ 
-			var f=swfobject.getObjectById('content'); 
-      if (f) { f.tabIndex = 0; f.focus(); } 
+		{
+			var f=swfobject.getObjectById('content');
+      if (f) { f.tabIndex = 0; f.focus(); }
     }
     function getURLParam()
 		{
@@ -40,7 +40,7 @@
       {
 				var param = href.substr(href.indexOf("?"));
 				var arrayParam = param.split("&");
-	  
+
 				for ( var i = 0; i < arrayParam.length; i++ )
 				{
 					var value = arrayParam[i].split("=");
@@ -52,19 +52,19 @@
 		}
 
 		var dir = "./files/";
-	
+
 		 var getURI = function(){
         		var URIArray = document.location.href.split('/');
-        
+
        			 URIArray.length = URIArray.length-1;
         		var URIstr = URIArray.join('/');
-        
+
         		URIArray = null;
-        
+
         		var URIarr = dir.split('/');
         		URIarr[0] = URIarr[0]=='.'?'':URIarr[0];
         		var dirStr = URIarr.join('/');
-        
+
         		URIstr = URIstr+dirStr;
 
 			return URIstr;
@@ -99,7 +99,7 @@
           if(Browser.Platform.name == 'webos' || Browser.Platform.name == 'bada' || Browser.Platform.name == 'symbian' || Browser.Platform.name == 'palm' || Browser.Platform.name == 'blackberry') window.location = dir+assetsFolder+"/seo/page1.html";
 
           var flashvars = getURLParam();
-		
+
           var params = {baseURI: getURI(), base: dir, allowFullScreen: true, allowScriptAccess: "sameDomain", quality: "high", scale: "noscale",bgcolor:"FFFFFF"};
           var attributes = {align: "middle"};
 
@@ -110,8 +110,8 @@
 					FBID=af96a9a53a2c352d4a207ecc5cc59c5e--><span id="content">
       <h1>Alternative content</h1>
       <p>
-        <a href="http://www.adobe.com/go/getflashplayer">
-          <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+        <a href="https://get.adobe.com/flashplayer/">
+          <img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
         </a>
         <br />
         <a id="hrefMobile" href="files/mobile/index.html">
