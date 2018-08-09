@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children />
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFFFF" />
+        <width value="612" />
+        <height value="792" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+        </page>
+        <page>
+          <links />
+          <id value="5" />
+        </page>
+        <page>
+          <links />
+          <id value="6" />
+        </page>
+        <page>
+          <links />
+          <id value="7" />
+        </page>
+        <page>
+          <links />
+          <id value="8" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookWidth value="612" />
+    <bookHeight value="792" />
+    <bookName value="MM_AlvexBro_NewImages" />
+    <bookBG src="image/grey-inner.jpg" scale="scale" />
+  </bookProperties>
+</Properties>

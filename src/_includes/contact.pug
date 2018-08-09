@@ -1,0 +1,7 @@
+div= company.name_legal
+div= company.division
+div= company.address.line_1
+div #{company.address.city}, #{company.address.state_abbr} #{company.address.post_code}
+div USA Tel: #{company.phone}
+div USA Fax: #{company.fax}
+div: a(href=company.url)= company.hostname

@@ -1,0 +1,21 @@
+.inner
+  h2#updates Latest Alvex PF Updates
+
+.cbox.cbox-bg
+  .blocks.clearfix
+    each post in collections.updates.slice(0, 4)
+      .block.block-2
+        .inner
+          .article
+            header
+              h3 #{ post.data.title }
+              .excerpt
+                | #{ post.data.excerpt }
+              p
+                a.read-more(href=post.url title="Read more") Read more »
+    .clear
+    .block.block-4
+      .inner
+        .navigation
+          p
+            a.aligncenter(href="/updates/") View all Alvex PF Updates »

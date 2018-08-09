@@ -2,8 +2,14 @@
   "name": "McAllister Mills",
   "name_legal": "McAllister Mills, Inc.",
   "division": "ALVEX PF Division",
-  "url": "http://www.mcallistermills.com/",
+  "hostname": "mcallistermills.com",
+  "url": "https://www.mcallistermills.com/",
   "phone": "+1 604-360-8840",
   "fax": "+1 778-279-7771",
-  "address": "P.O. Box 590, Independence, VA 24348"
+  "address": {
+    "line_1": "P.O. Box 590",
+    "city": "Independence",
+    "state_abbr": "VA",
+    "post_code": "24348"
+  }
 }

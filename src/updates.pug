@@ -1,0 +1,14 @@
+---
+layout: /layouts/default.pug
+title: Updates
+---
+.cbox.cbox-bg
+  .inner
+    h1.page-title Updates
+    hr
+    each post in collections.updates.reverse()
+      article.post
+        header
+          h2 #{ post.data.title }
+          p.post-meta #{ new Date(post.date).toLocaleDateString() }
+          | !{ post.templateContent }

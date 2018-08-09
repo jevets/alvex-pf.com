@@ -30,5 +30,23 @@
       "label": "Updates",
       "uri": "#updates"
     }
+  ],
+  "links": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "McAllisterMills.com",
+      "url": "http://www.mcallistermills.com/"
+    },
+    {
+      "label": "Updates",
+      "url": "/updates"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
   ]
 }

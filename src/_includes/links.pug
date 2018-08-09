@@ -1,0 +1,9 @@
+.site-links
+  .container
+    .nav
+      ul
+        each item in site.links
+          li
+            a(href=item.url)= item.label
+    .division
+      span A Division of #{ company.name }
