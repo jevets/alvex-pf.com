@@ -4,6 +4,7 @@ module.exports = function (config) {
     output: '_site'
   }
 
+  config.addPassthroughCopy('src/_redirects')
   config.addPassthroughCopy('src/assets')
   config.addPassthroughCopy('src/lib')
 
